@@ -1,0 +1,632 @@
+/* Reset css */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    direction: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*End Reset css */
+
+
+/*Start Custom css */
+
+body {
+    direction: rtl;
+    float: right;
+    font-family: 'Lato', sans-serif;
+}
+
+.site-header {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    width: 100%;
+}
+
+.site-header .logo-text span:last-child {
+    color: #ed145b;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.site-header .logo-text span:first-child {
+    color: rgb(254, 255, 254);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.site-header .site-navbar ul li {
+    display: inline-block;
+}
+
+.site-header .site-navbar ul li a:hover,
+.site-header .site-navbar ul li a:focus {
+    background-color: transparent !important;
+    opacity: 0.7;
+}
+
+.site-header .site-navbar ul li a {
+    color: white;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.site-header .site-navbar ul li.active a {
+    color: #ed145b;
+}
+
+
+/* .site-header .site-navbar ul li a:focus {
+    -webkit-box-shadow: 0px 0px 35px -3px rgba(103, 87, 148, 0.88);
+    -moz-box-shadow: 0px 0px 35px -3px rgba(103, 87, 148, 0.88);
+    box-shadow: 0px 0px 35px -3px rgba(103, 87, 148, 0.88);
+} */
+
+#myCarousel {
+    position: relative;
+    z-index: 2;
+}
+
+#myCarousel .carousel-caption {
+    top: 33%;
+}
+
+.caruosel-caption-line-divider {
+    border-top: 1.1px solid;
+    width: 15%;
+    border-color: #ed145b;
+}
+
+.caption-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.caption-title b {
+    font-weight: 900;
+}
+
+.carousel-caption p {
+    line-height: 21px;
+}
+
+.btn-caption {
+    background-color: #ed145b;
+    padding: 19px 52px;
+    border-radius: 32px;
+    margin-top: 48px;
+    font-size: 14px;
+}
+
+.content-1 {
+    position: relative;
+}
+
+.red-triangle {
+    position: absolute;
+    z-index: 0;
+    top: -26px;
+}
+
+.bg-mac-content {
+    background-color: #f4f4f4;
+}
+
+.macbook-img {
+    margin-top: 83px;
+    position: absolute;
+    left: 0px;
+}
+
+.mac-content-left {
+    margin-top: 100px;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.small-text {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.mac-line-divider {
+    border-top: 1.1px solid;
+    width: 33%;
+    border-color: #ed145b;
+    display: inline-block;
+}
+
+.btn-see-video {
+    background-color: transparent;
+    font-weight: bold;
+    color: #ed145b;
+    padding-left: 0px;
+}
+
+.btn-see-video i {
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+}
+
+.Our-Services {
+    margin-top: 90px;
+}
+
+.Our-Services-line-divider {
+    border-top: 2.1px solid;
+    width: 16%;
+    border-color: #ed145b;
+    display: inline-block;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.text-service {
+    font-size: 38px;
+    line-height: 34px;
+}
+
+.text-news {
+    font-size: 38px;
+    line-height: 34px;
+    margin-top: 70px;
+}
+
+.row-news {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.row-news-1 {
+    margin-bottom: 150px;
+}
+
+.row-news div,
+.row-news-1 div {
+    background-color: #c8c8c8;
+}
+
+.Our-Prices {
+    font-size: 38px;
+    line-height: 34px;
+    margin-top: 90px;
+}
+
+.our-prices-panel {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.services-icons {
+    margin-top: 97px;
+    margin-bottom: 50px;
+}
+
+.services-icons .col-md-3 i {
+    border: 1px solid;
+    padding: 20%;
+    border-radius: 256px;
+    font-size: 43px;
+}
+
+/* .services-icons .col-md-3 {
+    
+} */
+
+.services-icons .col-md-3 p {
+    line-height: 91px;
+    color: #ed145b;
+    font-weight: bold;
+}
+
+.footer-p {
+    line-height: 91px;
+    background-color: #2b2b2b;
+    font-size: 11px;
+    color: white;
+}
+
+.footer-dot {
+    color: #ed145b;
+}
+
+.our-pricing .panel {
+    border-radius: 0px;
+}
+
+.our-pricing .panel:hover .panel-heading {
+    background-color: #ed145b;
+}
+
+.our-pricing .panel:hover .panel-heading .btn-pricing,
+.our-pricing .panel:hover .btn-buynow {
+    -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
+}
+
+.row-news .hover-img img:hover,
+.row-news-1 .hover-img img:hover {
+    background-color: #ed145b!important;
+}
+
+.our-pricing .panel .panel-heading {
+    color: white;
+    background-color: #5a5a5a;
+    padding-top: 22px;
+}
+
+.our-pricing .panel .panel-heading .btn-pricing {
+    color: #5a5a5a;
+    background-color: #f4f4f4;
+    width: 76%;
+    position: relative;
+    top: 26px;
+    height: 42px;
+    border-radius: 20px;
+}
+
+.our-pricing .price-amount {
+    font-size: 50;
+}
+
+.our-pricing .panel-body {
+    color: #5a5a5a;
+}
+
+.our-pricing .panel-body p:first-child {
+    margin-top: 32px;
+}
+
+.our-pricing .panel-body p {
+    margin-bottom: 10px;
+}
+
+.our-pricing .panel-body .btn-buynow {
+    margin-top: 15px;
+    width: 78%;
+    border-radius: 20px;
+    height: 42px;
+    background-color: #eb145a;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Aditional-Info h3 {
+    color: #eb145a;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+.Aditional-icon i {
+    padding: 20%;
+    font-size: 43px;
+    color: #c8c8c8;
+}
+
+.Aditional-1 {
+    margin-top: 90px;
+}
+
+.Aditional-2 {
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.bg-text-carousel {
+    background-color: #f4f4f4;
+}
+
+.bg-Join {
+    background-color: #eb145a;
+    line-height: 100px;
+}
+
+.bg-Join .col-md-9 center p:first-child {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-Join {
+    position: absolute;
+    left: 261px;
+    top: 32px;
+    border-color: white;
+    border-radius: 37px;
+    background-color: white;
+    width: 147px;
+    height: 37px;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+
+/*End Custom css */
+
+
+/*  Extra small devices (portrait phones, less than 576px)    XS     */
+
+@media (max-width: 575px) {
+    .site-header .site-navbar ul li a {
+        font-size: 13px;
+    }
+    .site-header {
+        top: 16px;
+    }
+    .Our-Services {
+        margin-top: 19px;
+    }
+    .red-triangle {
+        top: -9px;
+    }
+    .btn-Join {
+        position: absolute;
+        left: 30%;
+        top: 57px;
+        color: #eb145a;
+        font-weight: bold;
+    }
+    .bg-Join .col-md-9 center p:first-child {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)    XS    */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .site-header .site-navbar ul li a {
+        font-size: 13px;
+    }
+    .site-header {
+        top: 16px;
+    }
+    .Our-Services {
+        margin-top: 19px;
+    }
+    .red-triangle {
+        top: -16px;
+    }
+    .btn-Join {
+        position: absolute;
+        left: 337px;
+        top: 32px;
+        border-color: white;
+        border-radius: 37px;
+        background-color: white;
+        width: 147px;
+        height: 37px;
+        color: #eb145a;
+        font-weight: bold;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)    SM     */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .site-header {
+        top: 16px;
+    }
+    .Our-Services {
+        margin-top: 19px;
+    }
+    .red-triangle {
+        top: -18px;
+    }
+    .btn-Join {
+        position: absolute;
+        left: 337px;
+        top: 32px;
+        border-color: white;
+        border-radius: 37px;
+        background-color: white;
+        width: 147px;
+        height: 37px;
+        color: #eb145a;
+        font-weight: bold;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)     MD    */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .red-triangle {
+        top: -23px;
+    }
+}
+
+.btn-Join {
+    position: absolute;
+    left: 337px;
+    top: 32px;
+    border-color: white;
+    border-radius: 37px;
+    background-color: white;
+    width: 147px;
+    height: 37px;
+    color: #eb145a;
+    font-weight: bold;
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)    LG    */
+
+@media (min-width: 1200px) {
+    .red-triangle {
+        top: -30px;
+    }
+    .Our-Services {
+        margin-top: 175px;
+    }
+    .btn-Join {
+        position: absolute;
+        left: 337px;
+        top: 32px;
+        border-color: white;
+        border-radius: 37px;
+        background-color: white;
+        width: 147px;
+        height: 37px;
+        color: #eb145a;
+        font-weight: bold;
+    }
+}
