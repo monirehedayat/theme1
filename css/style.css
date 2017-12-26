@@ -115,6 +115,7 @@ section {
 
 body {
     line-height: 1;
+    direction: rtl;
 }
 
 ol,
@@ -265,12 +266,19 @@ body {
 }
 
 .align-left {
-    text-align: left;
+    text-align: right;
 }
 
 .small-text {
     font-size: 14px;
     line-height: 25px;
+}
+
+.small-text-1 {
+    font-size: 14px;
+    line-height: 25px;
+    direction: rtl;
+    text-align: justify;
 }
 
 .mac-line-divider {
@@ -490,7 +498,7 @@ body {
 .Aditional-icon i {
     padding: 20%;
     font-size: 43px;
-    color: #c8c8c8;
+    color: #eb145a;
 }
 
 .Aditional-1 {
@@ -514,26 +522,42 @@ body {
 .bg-Join .col-md-9 center p:first-child {
     color: #ffffff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
+.btn-Join{
+    position: relative;
+    top: 31px;
+    left: 180px;
+    border-radius: 20px;
+    padding: 8px 50px;
+    background-color: white;
+    color: #eb145a;
+    font-weight: bold;
+}
+/* .btn-join:hover .btn-join{
+    -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
+} */
 
-.btn-Join {
+/* .btn-Join {
     position: absolute;
     left: 261px;
     top: 32px;
-    border-color: white;
     border-radius: 37px;
     background-color: white;
+    color: #ed145b;
     width: 147px;
     height: 37px;
-}
+} */
 
-.btn-Aditional{
+.btn-Aditional {
     background-color: transparent;
     margin-top: 72px;
     color: #ed145b;
     font-weight: bold;
 }
+
 .glyphicon-chevron-down {
     background-color: transparent;
     position: relative;
@@ -541,7 +565,34 @@ body {
     color: #ed145b;
     top: 57px;
     right: -71px;
-    margin-bottom:80px;
+    margin-bottom: 80px;
+}
+
+bg-Safari-Browser {
+    background-color: #f4f4f4;
+}
+
+.Safari-Browser-img {
+    margin-top: 59px;
+    width: 530px;
+    height: 411px;
+    margin-bottom: 44px;
+}
+
+.btn-download {
+    background-color: #ed145b;
+    padding: 19px 52px;
+    border-radius: 32px;
+    margin-top: 47px;
+    font-size: 14px;
+    color: white;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 15px;
+    margin-top: 20px;
 }
 
 .rtl {
@@ -571,13 +622,6 @@ body {
     .red-triangle {
         top: -9px;
     }
-    .btn-Join {
-        position: absolute;
-        left: 30%;
-        top: 57px;
-        color: #eb145a;
-        font-weight: bold;
-    }
     .bg-Join .col-md-9 center p:first-child {
         color: #ffffff;
         font-weight: bold;
@@ -601,19 +645,7 @@ body {
     .red-triangle {
         top: -16px;
     }
-    .btn-Join {
-        position: absolute;
-        left: 337px;
-        top: 32px;
-        border-color: white;
-        border-radius: 37px;
-        background-color: white;
-        width: 147px;
-        height: 37px;
-        color: #eb145a;
-        font-weight: bold;
-    }
-}
+ 
 
 
 /* Medium devices (tablets, 768px and up)    SM     */
@@ -628,18 +660,7 @@ body {
     .red-triangle {
         top: -18px;
     }
-    .btn-Join {
-        position: absolute;
-        left: 337px;
-        top: 32px;
-        border-color: white;
-        border-radius: 37px;
-        background-color: white;
-        width: 147px;
-        height: 37px;
-        color: #eb145a;
-        font-weight: bold;
-    }
+ 
 }
 
 
@@ -651,18 +672,7 @@ body {
     }
 }
 
-.btn-Join {
-    position: absolute;
-    left: 337px;
-    top: 32px;
-    border-color: white;
-    border-radius: 37px;
-    background-color: white;
-    width: 147px;
-    height: 37px;
-    color: #eb145a;
-    font-weight: bold;
-}
+
 
 
 /* Extra large devices (large desktops, 1200px and up)    LG    */
@@ -674,16 +684,5 @@ body {
     .Our-Services {
         margin-top: 175px;
     }
-    .btn-Join {
-        position: absolute;
-        left: 337px;
-        top: 32px;
-        border-color: white;
-        border-radius: 37px;
-        background-color: white;
-        width: 147px;
-        height: 37px;
-        color: #eb145a;
-        font-weight: bold;
-    }
+   
 }
