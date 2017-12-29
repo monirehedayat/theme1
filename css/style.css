@@ -351,43 +351,7 @@ body {
 }
 
 
-/* n */
-
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-}
-
-.row-news .img-hover img:hover {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-
-/* n */
+ 
 
 .Our-Prices {
     font-size: 38px;
@@ -539,25 +503,6 @@ body {
     margin-top: 32px;
     margin-left: 283px;
 }
-
-
-/* .btn-join:hover .btn-join{
-    -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
-    box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 1);
-} */
-
-
-/* .btn-Join {
-    position: absolute;
-    left: 261px;
-    top: 32px;
-    border-radius: 37px;
-    background-color: white;
-    color: #ed145b;
-    width: 147px;
-    height: 37px;
-} */
 
 .btn-Aditional {
     background-color: transparent;
@@ -758,9 +703,11 @@ bg-Safari-Browser {
         -ms-transform: translate(0px, 0px);
     }
 }
-.animation:hover{
-    animation:none;
+
+.animation:hover {
+    animation: none;
 }
+
 
 /* End of animation */
 
@@ -770,6 +717,31 @@ bg-Safari-Browser {
 
 .ltr {
     direction: ltr;
+}
+
+.text-carousel-section-row {
+    position: relative;
+}
+
+.text-carousel-section {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-content {
+    color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+}
+
+#text-carousel {
+    width: 100%;
+    height: auto;
+}
+
+.bg-img-none {
+    background-image: none !important;
 }
 
 
