@@ -518,24 +518,21 @@ body {
 
 .bg-Join {
     background-color: #eb145a;
-    line-height: 100px;
+    line-height:31px;
 }
 
 .bg-Join .col-md-7 center p:first-child {
     color: #ffffff;
-    font-weight: bold;
-    font-size: 21px;
-    margin-right: 204px;
+    font-weight: bold;    margin-top: 8px;
+    font-size: 21px; 
 }
 
 .btn-Join {
     border-radius: 20px;
     padding: 8px 50px;
     background-color: white;
-    color: #eb145a;
-    font-weight: bold;
-    margin-top: 32px;
-    margin-left: 283px;
+    color: #eb145a;    margin-top: 8px;
+    font-weight: bold;     margin-bottom: 10px;
 }
 
 .btn-Aditional {
@@ -544,7 +541,10 @@ body {
     color: #ed145b;
     font-weight: bold;
 }
-
+.btn-Aditional:hover ,.btn-Aditional:focus{ 
+    color: #ed145b;
+   opacity: 0.8;
+}
 .glyphicon-chevron-down {
     background-color: transparent;
     position: relative;
