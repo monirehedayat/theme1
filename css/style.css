@@ -297,6 +297,7 @@ body {
     font-weight: bold;
     color: #ed145b;
     padding-left: 0px;
+    /* margin-top: 38px; */
 }
 
 .btn-see-video i {
@@ -504,7 +505,7 @@ body {
 }
 
 .Aditional-1 {
-    margin-top: 90px;
+    margin-top: 48px;
 }
 
 .Aditional-2 {
@@ -518,7 +519,7 @@ body {
 
 .bg-Join {
     background-color: #eb145a;
-    line-height:31px;
+    line-height:31px;    margin-top: 20px;
 }
 
 .bg-Join .col-md-7 center p:first-child {
@@ -572,13 +573,8 @@ bg-Safari-Browser {
     border-radius: 32px;
     margin-top: 47px;
     font-size: 14px;
-    color: white;
-    padding-left: 27px;
-    padding-right: 27px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
-    left: 15px;
+    color: white; 
+    padding: 10px 27px;
     margin-top: 20px;
 }
 
